@@ -1,0 +1,78 @@
+@import url('./normalize.css');
+@import url('./skeleton.css');
+
+body {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;    
+    width: 100%;
+    margin-bottom: 0;
+}
+ul li {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 0;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+img {
+    max-width:100%;
+    box-sizing:boder-box;
+    margin:0 auto;
+}
+.italic {
+    font-style: italic;
+}
+
+.header-wrapper .header-content,
+.footer-wrapper .footer-content,
+.container,
+.navigation-wrapper ul  {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header-wrapper,
+.footer-wrapper {
+    background-color: #080530;
+    color: #008D9B;
+}
+.footer-content,
+.header-content {
+    padding: 1.25em 2em 1.25em 1.5em;
+}
+
+.navigation-wrapper {
+    background-color: white;
+    border-bottom: 1px solid #008D9B;
+    margin-bottom: 2.5em;
+}
+.navigation-wrapper li:hover {
+    background-color: #bfedf1;
+}
+
+.navigation-wrapper a {
+    color:#080530;
+}
+
+.footer-wrapper {
+    height: 5em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.advertisement-wrapper {
+    border: 1px solid #080530;
+    background-color: #bfedf1;
+    padding: .75em;
+}
+
+.advertisement-content {
+    padding: 1em;
+}
